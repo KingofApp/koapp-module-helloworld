@@ -1,11 +1,11 @@
 (function(){
-	describe('Html Module test', function() {
+	describe('HelloWorld Module test', function() {
 		beforeEach(function(){
 		    browser.driver.manage().window().setSize(379, 666);
 		    browser.ignoreSynchronization = true;
 		});
 
-		it('should load html module', function() {
+		it('should load helloworld module', function() {
 			browser.get('/#/menu-abcd/hello');
 			isPresent('.helloworld android-item');
 
