@@ -1,39 +1,40 @@
 {
-  "name" : "Hello World",
-  "identifier" : "helloworld",
-  "icon" : "code",
-  "type" : "A",
-  "version" : "1.0.1",
-  "author" : "King of App",
-  "category" : [
-      "others"
-  ],
-  "price" : 0,
-  "platforms" : [
-      "android",
-      "ios",
-      "windows"
-  ],
-  "view" : "modules/helloworld/index.html",
-  "files" : [
-      "modules/helloworld/controller.js"
-  ],
-  "scope" : {
-      "value" : "Name",
-  },
-  "config" : [{
-    "type" : "input",
-    "key" : "value",
-    "templateOptions" : {
-        "label" : "Nombre",
-        "required" : true,
-        "description" : "Nombre"
-    }
-  }],
-  "showOn" : {
-      "market" : false,
-      "dragDrop" : true
-  },
-  "images": {
-  }
+    "name": "Hello World",
+    "identifier": "helloworld",
+    "icon": "code",
+    "type": "A",
+    "version": "1.0.2",
+    "author": "King of App",
+    "category": [
+        "others"
+    ],
+    "price": 0,
+    "platforms": [
+        "android",
+        "ios",
+        "windows"
+    ],
+    "view": "modules/helloworld/index.html",
+    "files": [
+        "modules/helloworld/controller.js"
+    ],
+    "scope": {
+        "value": "Name"
+    },
+    "config": [
+        {
+            "type": "input",
+            "key": "value",
+            "templateOptions": {
+                "label": "Nombre",
+                "required": true,
+                "description": "Nombre"
+            }
+        }
+    ],
+    "showOn": {
+        "market": false,
+        "dragDrop": true
+    },
+    "images": {}
 }
